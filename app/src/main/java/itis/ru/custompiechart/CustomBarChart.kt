@@ -47,8 +47,8 @@ class CustomBarChart @JvmOverloads constructor(
     }
 
     override fun onMeasure(widthMeasureSpec: Int, heightMeasureSpec: Int) {
-        val desiredWidth = resources.displayMetrics.widthPixels + paddingLeft + paddingRight
-        val desiredHeight = resources.displayMetrics.heightPixels / 2 + paddingTop + paddingBottom
+        val desiredWidth = 400 + paddingLeft + paddingRight
+        val desiredHeight = 800 + paddingTop + paddingBottom
         setMeasuredDimension(
             measureDimension(desiredWidth, widthMeasureSpec),
             measureDimension(desiredHeight, heightMeasureSpec)

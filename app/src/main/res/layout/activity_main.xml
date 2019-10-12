@@ -8,11 +8,12 @@
 
     <itis.ru.custompiechart.CustomBarChart
         android:id="@+id/barchart"
-        android:layout_width="300dp"
-        app:spaceBetweenBars="40dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toTopOf="parent"
+        app:spaceBetweenBars="40dp">
 
     </itis.ru.custompiechart.CustomBarChart>
 
