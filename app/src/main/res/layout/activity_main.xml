@@ -6,13 +6,14 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
+    <itis.ru.custompiechart.CustomBarChart
+        android:id="@+id/barchart"
+        android:layout_width="300dp"
+        app:spaceBetweenBars="40dp"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </itis.ru.custompiechart.CustomBarChart>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
